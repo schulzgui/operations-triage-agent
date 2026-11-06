@@ -1,0 +1,16 @@
+{
+  "python": "3.10.4",
+  "seed": 42,
+  "sha256": {
+    "data/README.md": "13039b4256f3a91d1bfeed8e69de1ebfe570e9634b8e46c2f7bae095a17e4cd4",
+    "data/tickets.json": "21117f7694fdf997e046faf52b3074599372b74e56c9977da6b75c6eb3204a9b",
+    "src/ops_triage/__init__.py": "3296241392b59c5d41520e90ea00a21cbe5a07c6f496d71baa8f928ce20b5cf5",
+    "src/ops_triage/agent.py": "dac52bb3d520e1200986b3bcbce6a6ca1868ae1195a23b6ee9cba925bd7d86d4",
+    "src/ops_triage/cli.py": "f5b36825dc470d58e7bf84eaf66a943b26c1f8f10242da494ea0726ceb960a26",
+    "src/ops_triage/data.py": "e61aad1071be02d29d34a0f68ffbc62e5baa7b139f64385360d7b3a5aff98423",
+    "src/ops_triage/server.py": "1d3dc917bf13e8ab7e3db0272736f1bb0af30a728f37a32b4e30b73de44d322a",
+    "src/ops_triage/store.py": "db17a93bdd01cd9a3e175b5bc335d95d5a99bfbdab1f6966cbe4edf664d9ca25",
+    "src/ops_triage/text.py": "632a0c3d9578ffeb117118cafa17f36cabef05f0b9dcf465a464c44cb5909275"
+  },
+  "synthetic": true
+}

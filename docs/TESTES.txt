@@ -1,0 +1,17 @@
+Avaliação sintética salva em artifacts/metrics.json
+
+Avaliação sintética salva em /var/folders/jw/qcz85hz17kgd_qry6ryqkypr0000gn/T/tmpqkje2o_u/artifacts/metrics.json
+Avaliação sintética salva em /var/folders/jw/qcz85hz17kgd_qry6ryqkypr0000gn/T/tmpqkje2o_u/artifacts/metrics.json
+test_concurrent_idempotency (test_domain.AgentTests) ... ok
+test_negation_and_ambiguity (test_domain.AgentTests) ... ok
+test_safety_priority (test_domain.AgentTests) ... ok
+test_transaction_and_review (test_domain.AgentTests) ... ok
+test_reproducible_pipeline_and_api (test_integration.IntegrationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.613s
+
+OK
+
+Avaliação sintética salva em artifacts/metrics.json
+Dados idênticos e métricas reproduzidas (tolerância 1e-10).

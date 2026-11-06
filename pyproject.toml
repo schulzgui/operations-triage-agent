@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "operations-triage-agent"
+version = "1.0.0"
+description = "Operations Triage Agent — avaliação reproduzível com dados sintéticos"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+operations-triage-agent = "ops_triage.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

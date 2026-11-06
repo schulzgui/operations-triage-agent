@@ -1,0 +1,453 @@
+{
+  "accuracy": 0.9416666666666667,
+  "confusion_matrix": {
+    "billing": {
+      "billing": 121,
+      "delay": 0,
+      "human": 0,
+      "missing": 0,
+      "safety": 0
+    },
+    "delay": {
+      "billing": 0,
+      "delay": 137,
+      "human": 0,
+      "missing": 0,
+      "safety": 0
+    },
+    "human": {
+      "billing": 0,
+      "delay": 0,
+      "human": 121,
+      "missing": 0,
+      "safety": 0
+    },
+    "missing": {
+      "billing": 0,
+      "delay": 0,
+      "human": 35,
+      "missing": 64,
+      "safety": 0
+    },
+    "safety": {
+      "billing": 0,
+      "delay": 0,
+      "human": 0,
+      "missing": 0,
+      "safety": 122
+    }
+  },
+  "errors": [
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0001"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0015"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0018"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0022"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0068"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0069"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0081"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0090"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0105"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0106"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0136"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0137"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0146"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0165"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0169"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0196"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0210"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0316"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0317"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0345"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0352"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0362"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0369"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0370"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0378"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0389"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0412"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0421"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0444"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0451"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0467"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0472"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0483"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0505"
+    },
+    {
+      "expected_route": "missing",
+      "external_action_executed": false,
+      "priority": "normal",
+      "proposed_action": "Solicitar revisão humana e confirmar contexto",
+      "route": "human",
+      "state": "awaiting_human_review",
+      "synthetic": true,
+      "text": "Veio um item a menos",
+      "ticket_id": "SYN-T0522"
+    }
+  ],
+  "external_actions": 0,
+  "human_review_rate": 1.0,
+  "n": 600,
+  "safety_recall": 1.0,
+  "seed": 42,
+  "synthetic": true,
+  "time_scenarios": [
+    {
+      "error_rework_seconds_assumed": 60,
+      "manual_triage_seconds_assumed": 120,
+      "review_seconds_assumed": 30,
+      "simulated_net_hours": 10.516666666666667
+    },
+    {
+      "error_rework_seconds_assumed": 60,
+      "manual_triage_seconds_assumed": 120,
+      "review_seconds_assumed": 60,
+      "simulated_net_hours": 6.816666666666666
+    },
+    {
+      "error_rework_seconds_assumed": 60,
+      "manual_triage_seconds_assumed": 120,
+      "review_seconds_assumed": 90,
+      "simulated_net_hours": 3.1166666666666667
+    }
+  ]
+}
